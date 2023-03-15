@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CrProfile from "./Components/CreateProfile";
 import LoginAct from "./Components/LoginAct/index";
-import ModulesSetup from "./Components/Modules/index";
-import Page404 from "./Components/Page/index";
-import Payment from "./Components/PaymentSetup/index";
-import Success from "./Components/Success/index";
-import Theme from "./Components/Themes/index";
-import VeiwClint from "./Components/ViewClients/index";
+import ModulesSetup from "./Modules_Setup";
+import Page404 from "./Page404";
+import Payment from "./Payment_Setup";
+import Success from "./Success";
+import Theme from "./Theme_Setup/index.js";
+import VeiwClint from "./View_Clients";
 
 const App = () => {
   const [Token, SetToken] = useState(true);
